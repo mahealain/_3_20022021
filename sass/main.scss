@@ -23,23 +23,38 @@ $colour-tertiaire: #99e2e0;
 body {
   margin: 0;
   max-width: 500px;
+  min-width: 1000px;
+  text-align: center;
+  margin: auto;
+  display: flex;
 }
 
 .miheader {
   display: flex;
+  flex-direction: column;
   background-color: $colour-tertiaire;
   opacity: 0.2;
+  text-align: center;
 }
 
 .baheader {
   display: flex;
   flex-direction: column;
-  background-color: #99e2e0;
+  background-color: $colour-tertiaire;
   opacity: 0.5;
+  text-align: center;
 }
 
 .btn-header {
   background-color: $colour-secondary;
   color: white;
   border-radius: 50px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+main {
+  display: flex;
+  flex-direction: column;
 }

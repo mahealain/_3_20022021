@@ -5,12 +5,19 @@
 body {
   margin: 0;
   max-width: 500px;
+  min-width: 1000px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .miheader {
   display: flex;
+  flex-direction: column;
   background-color: #99e2e0;
   opacity: 0.2;
+  text-align: center;
 }
 
 .baheader {
@@ -18,12 +25,23 @@ body {
   flex-direction: column;
   background-color: #99e2e0;
   opacity: 0.5;
+  text-align: center;
 }
 
 .btn-header {
   background-color: #ff79da;
   color: white;
   border-radius: 50px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  border: solid red 2px;
 }
 
 /*# sourceMappingURL=style.css.map */
