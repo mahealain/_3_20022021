@@ -12,6 +12,11 @@
 //*@import "./pages/work";*//
 //*@import "./pages/about";*//
 //*@import "./pages/project"; *//
+
+* {
+  box-sizing: border-box;
+}
+
 $colour-primary: #9356dc;
 $colour-secondary: #ff79da;
 $colour-tertiaire: #99e2e0;
