@@ -2,4 +2,9 @@ body {
   margin: 0;
 }
 
+.miheader {
+  display: flex;
+  background-color: #99e2e0;
+}
+
 /*# sourceMappingURL=style.css.map */

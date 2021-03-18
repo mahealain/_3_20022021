@@ -18,3 +18,7 @@ $colour-tertiaire: #99e2e0;
 body {
   margin: 0;
 }
+.miheader {
+  display: flex;
+  background-color: $colour-tertiaire;
+}
