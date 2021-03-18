@@ -18,7 +18,22 @@ $colour-tertiaire: #99e2e0;
 body {
   margin: 0;
 }
+
 .miheader {
   display: flex;
   background-color: $colour-tertiaire;
+  opacity: 0.2;
+}
+
+.baheader {
+  display: flex;
+  flex-direction: column;
+  background-color: #99e2e0;
+  opacity: 0.5;
+}
+
+.btn-header {
+  background-color: $colour-secondary;
+  color: white;
+  border-radius: 50px;
 }

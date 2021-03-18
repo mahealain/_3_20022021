@@ -5,6 +5,20 @@ body {
 .miheader {
   display: flex;
   background-color: #99e2e0;
+  opacity: 0.2;
+}
+
+.baheader {
+  display: flex;
+  flex-direction: column;
+  background-color: #99e2e0;
+  opacity: 0.5;
+}
+
+.btn-header {
+  background-color: #ff79da;
+  color: white;
+  border-radius: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
