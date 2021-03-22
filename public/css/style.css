@@ -4,8 +4,6 @@
 
 body {
   margin: 0;
-  max-width: 500px;
-  min-width: 1000px;
   text-align: center;
   margin: auto;
   display: flex;
@@ -24,12 +22,11 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #99e2e0;
-  opacity: 0.5;
   text-align: center;
 }
 
 .btn-header {
-  background-color: #ff79da;
+  background: linear-gradient(160deg, #ff79da, #9356dc);
   color: white;
   border-radius: 50px;
   text-align: center;
@@ -41,7 +38,15 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  border: solid red 2px;
+}
+
+.restaurants {
+  background-color: #99e2e0;
+}
+
+footer {
+  background-color: #99e2e0;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

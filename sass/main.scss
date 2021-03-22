@@ -1,4 +1,4 @@
-//*@import "./utils/variables";*//
+@import "./utils/variables";
 //*@import "./utils/functions";*//
 //*@import "./utils/mixins";*//
 //*@import "./utils/extensions";*//
@@ -12,21 +12,19 @@
 //*@import "./pages/work";*//
 //*@import "./pages/about";*//
 //*@import "./pages/project"; *//
+@import "./components/components";
 
 * {
   box-sizing: border-box;
 }
 
-$colour-primary: #9356dc;
-$colour-secondary: #ff79da;
-$colour-tertiaire: #99e2e0;
 body {
   margin: 0;
-  max-width: 500px;
-  min-width: 1000px;
+
   text-align: center;
   margin: auto;
   display: flex;
+  flex-direction: column;
 }
 
 .miheader {
@@ -41,12 +39,13 @@ body {
   display: flex;
   flex-direction: column;
   background-color: $colour-tertiaire;
-  opacity: 0.5;
+
   text-align: center;
 }
 
 .btn-header {
-  background-color: $colour-secondary;
+  background: linear-gradient(160deg, $colour-secondary, $colour-primary);
+
   color: white;
   border-radius: 50px;
   text-align: center;
@@ -57,4 +56,11 @@ body {
 main {
   display: flex;
   flex-direction: column;
+}
+.restaurants {
+  background-color: $colour-tertiaire;
+}
+footer {
+  background-color: $colour-tertiaire;
+  color: white;
 }
