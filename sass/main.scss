@@ -60,6 +60,14 @@ main {
   background-color: $colour-tertiaire;
 }
 footer {
+  margin: 0 0 0 0;
+  height: auto;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 1em 2em;
   background-color: $colour-footer;
   color: white;
+  margin: 0;
+  text-align: left;
 }
