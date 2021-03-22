@@ -13,15 +13,14 @@ body {
 .miheader {
   display: flex;
   flex-direction: column;
-  background-color: #99e2e0;
-  opacity: 0.2;
+  background-color: #eaeaea;
   text-align: center;
 }
 
 .baheader {
   display: flex;
   flex-direction: column;
-  background-color: #99e2e0;
+  background-color: #f6f6f6;
   text-align: center;
 }
 

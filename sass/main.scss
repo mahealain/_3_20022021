@@ -19,7 +19,6 @@
 
 body {
   margin: 0;
-
   text-align: center;
   margin: auto;
   display: flex;
@@ -29,16 +28,14 @@ body {
 .miheader {
   display: flex;
   flex-direction: column;
-  background-color: $colour-tertiaire;
-  opacity: 0.2;
+  background-color: $colour-nuancefonce;
   text-align: center;
 }
 
 .baheader {
   display: flex;
   flex-direction: column;
-  background-color: $colour-tertiaire;
-
+  background-color: $colour-nuanceclair;
   text-align: center;
 }
 
