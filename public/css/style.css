@@ -57,4 +57,9 @@ footer {
   line-height: 1px;
 }
 
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
