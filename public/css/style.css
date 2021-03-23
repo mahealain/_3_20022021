@@ -17,6 +17,11 @@ body {
   text-align: center;
 }
 
+.fa-map-marker-alt {
+  font-size: 0.8em;
+  /*taille icone de recherche*/
+}
+
 .baheader {
   display: flex;
   flex-direction: column;
@@ -54,12 +59,22 @@ footer {
   color: white;
   margin: 0;
   text-align: left;
-  line-height: 1px;
+  line-height: 0.8px;
 }
 
 footer a {
   color: white;
   text-decoration: none;
+}
+
+.fa-utensils {
+  font-size: 0.8em;
+  /*taille icone foucherte */
+}
+
+.fa-hands-helping {
+  font-size: 0.8em;
+  /*taille icone partenaire */
 }
 
 /*# sourceMappingURL=style.css.map */
