@@ -44,6 +44,16 @@ body {
   margin-bottom: 20px;
 }
 
+.btn-commander {
+  background: linear-gradient(180deg, #ff79da, #9356dc);
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
 main {
   display: flex;
   flex-direction: column;
