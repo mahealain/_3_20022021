@@ -10,6 +10,11 @@ body {
   flex-direction: column;
 }
 
+.logo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .miheader {
   display: flex;
   flex-direction: column;
@@ -18,7 +23,7 @@ body {
 }
 
 .fa-map-marker-alt {
-  font-size: 0.8em;
+  font-size: 1em;
   /*taille icone de recherche*/
 }
 
