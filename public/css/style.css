@@ -45,16 +45,6 @@ body {
   margin-bottom: 20px;
 }
 
-.btn-commander {
-  background: linear-gradient(180deg, #ff79da, #9356dc);
-  color: white;
-  border-radius: 50px;
-  text-align: center;
-  width: 75%;
-  margin: auto;
-  margin-bottom: 20px;
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -91,6 +81,31 @@ footer a {
 .fa-hands-helping {
   font-size: 0.8em;
   /*taille icone partenaire */
+}
+
+.Fonctionnement {
+  display: flex;
+  display: block;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn__Fonctionnement {
+  border-radius: 50px;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  margin: 20px 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px #99e2e0;
+}
+
+.btn__Fonctionnement-color {
+  background: #e8f9f8;
+}
+
+.btn__Fonctionnement-color2 {
+  background: #ffdff6;
 }
 
 /*# sourceMappingURL=style.css.map */

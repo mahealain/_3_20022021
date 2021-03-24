@@ -49,7 +49,6 @@ body {
 
 .btn-header {
   background: linear-gradient(160deg, $colour-secondary, $colour-primary);
-
   color: white;
   border-radius: 50px;
   text-align: center;
@@ -57,16 +56,7 @@ body {
   margin: auto;
   margin-bottom: 20px;
 }
-.btn-commander {
-  background: linear-gradient(180deg, $colour-secondary, $colour-primary);
 
-  color: white;
-  border-radius: 50px;
-  text-align: center;
-  width: 75%;
-  margin: auto;
-  margin-bottom: 20px;
-}
 main {
   display: flex;
   flex-direction: column;
@@ -96,4 +86,28 @@ footer a {
 }
 .fa-hands-helping {
   font-size: 0.8em; /*taille icone partenaire */
+}
+.Fonctionnement {
+  display: flex;
+  display: block;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn__Fonctionnement {
+  border-radius: 50px;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  margin: 20px 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px $colour-tertiaire;
+}
+
+.btn__Fonctionnement-color {
+  background: lighten($colour-tertiaire, 20%);
+}
+
+.btn__Fonctionnement-color2 {
+  background: lighten($colour-secondary, 20%);
 }
