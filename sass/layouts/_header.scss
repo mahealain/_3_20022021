@@ -1,0 +1,24 @@
+.header__bas {
+  display: flex;
+  flex-direction: column;
+  background-color: $colour-nuanceclair;
+  text-align: center;
+}
+
+.header__milieu {
+  box-shadow: 0px -4px 3px $colour-bordure1;
+  display: flex;
+  flex-direction: column;
+  background-color: $colour-nuancefonce;
+  text-align: center;
+}
+
+.header__bas__btn {
+  background: linear-gradient(160deg, $colour-secondary, $colour-primary);
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 20px;
+}
