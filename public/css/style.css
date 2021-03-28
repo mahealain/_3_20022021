@@ -115,7 +115,7 @@ main {
   width: 80%;
   margin: auto;
   margin: 20px 20px;
-  padding: 1em;
+  padding: 2em;
   margin-bottom: 20px;
   box-shadow: 2px 2px 2px #eaeaea;
   display: flex;
@@ -140,24 +140,28 @@ main {
 
 .fonctionnement__btn-placement {
   position: absolute;
-  left: 0em;
-  height: 0em;
+  left: -3em;
 }
 
 .fas fa-list-ul {
   border: solid 2px purple;
 }
 
-Fonctionnement__btn p {
-  border: solid 2px red;
+.Fonctionnement__btn p {
   display: flex;
   flex-direction: row;
   z-index: 3;
   position: relative;
+  width: 90%;
+  margin: auto;
 }
 
-Fonctionnement__btn_chiffre {
+.Fonctionnement__btn_chiffre {
   height: auto;
+}
+
+.fa-mobile-alt {
+  font-size: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */
