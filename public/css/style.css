@@ -28,6 +28,20 @@
   font-size: 1.4em;
 }
 
+.header__bas p {
+  font-size: 1.4em;
+}
+
+.logo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.fa-map-marker-alt {
+  font-size: 1em;
+  /*taille icone de recherche*/
+}
+
 footer {
   margin: 0 0 0 0;
   height: auto;
@@ -67,16 +81,6 @@ h4,
 h5,
 h6 {
   font-family: "Shrikhand", cursive;
-}
-
-.logo {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.fa-map-marker-alt {
-  font-size: 1em;
-  /*taille icone de recherche*/
 }
 
 main {
