@@ -6,6 +6,7 @@
 @import "./base/typography";
 @import "./components/buttons";
 @import "./layouts/header";
+@import "./layouts/footer";
 @import "./pages/work";
 @import "./pages/about";
 @import "./pages/project";
@@ -48,23 +49,7 @@ main {
 .restaurants {
   background-color: $colour-nuanceclair;
 }
-footer {
-  margin: 0 0 0 0;
-  height: auto;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  padding: 1em 2em;
-  background-color: $colour-footer;
-  color: white;
-  margin: 0;
-  text-align: left;
-  line-height: 0.8px;
-}
-footer a {
-  color: white;
-  text-decoration: none;
-}
+
 .fa-utensils {
   font-size: 0.8em; /*taille icone foucherte */
 }

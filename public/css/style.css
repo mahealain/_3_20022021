@@ -23,6 +23,25 @@
   margin-bottom: 20px;
 }
 
+footer {
+  margin: 0 0 0 0;
+  height: auto;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 1em 2em;
+  background-color: #353535;
+  color: white;
+  margin: 0;
+  text-align: left;
+  line-height: 0.8px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -62,25 +81,6 @@ main {
 
 .restaurants {
   background-color: #f6f6f6;
-}
-
-footer {
-  margin: 0 0 0 0;
-  height: auto;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  padding: 1em 2em;
-  background-color: #353535;
-  color: white;
-  margin: 0;
-  text-align: left;
-  line-height: 0.8px;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
 }
 
 .fa-utensils {
