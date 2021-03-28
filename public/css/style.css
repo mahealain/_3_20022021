@@ -8,6 +8,16 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Shrikhand", cursive;
 }
 
 .logo {
@@ -90,22 +100,22 @@ footer a {
   text-align: center;
 }
 
-.btn__Fonctionnement {
+.Fonctionnement__btn {
   border-radius: 50px;
   text-align: center;
   width: 85%;
   margin: auto;
   margin: 20px 20px;
   margin-bottom: 20px;
-  box-shadow: 2px 2px 2px #99e2e0;
+  box-shadow: 2px 2px 2px #eaeaea;
 }
 
-.btn__Fonctionnement-color {
-  background: #e8f9f8;
+.Fonctionnement__btn-color {
+  background: #f7f7f7;
 }
 
-.btn__Fonctionnement-color2 {
-  background: #ffdff6;
+.Fonctionnement__btn-color2 {
+  background: #f2eafb;
 }
 
 /*# sourceMappingURL=style.css.map */

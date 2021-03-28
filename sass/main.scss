@@ -6,9 +6,6 @@
 @import "./base/typography";
 @import "./components/buttons";
 @import "./layouts/header";
-@import "./layouts/nav";
-@import "./layouts/container";
-@import "./layouts/form";
 @import "./pages/work";
 @import "./pages/about";
 @import "./pages/project";
@@ -23,7 +20,18 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
+  font-family: "Roboto", sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Shrikhand", cursive;
+}
+
 .logo {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -94,20 +102,20 @@ footer a {
   text-align: center;
 }
 
-.btn__Fonctionnement {
+.Fonctionnement__btn {
   border-radius: 50px;
   text-align: center;
   width: 85%;
   margin: auto;
   margin: 20px 20px;
   margin-bottom: 20px;
-  box-shadow: 2px 2px 2px $colour-tertiaire;
+  box-shadow: 2px 2px 2px $colour-nuancefonce;
 }
 
-.btn__Fonctionnement-color {
-  background: lighten($colour-tertiaire, 20%);
+.Fonctionnement__btn-color {
+  background: lighten($colour-nuancefonce, 5%);
 }
 
-.btn__Fonctionnement-color2 {
-  background: lighten($colour-secondary, 20%);
+.Fonctionnement__btn-color2 {
+  background: lighten($colour-primary, 35%);
 }
