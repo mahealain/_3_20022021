@@ -23,6 +23,11 @@
   margin-bottom: 20px;
 }
 
+.header__milieu p {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
 footer {
   margin: 0 0 0 0;
   height: auto;
