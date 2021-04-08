@@ -177,13 +177,15 @@ main {
 }
 
 .restaurants__card img {
-  height: 50%;
+  height: 60%;
   width: 95%;
   margin-top: 1em;
   margin-bottom: 0em;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
   border: solid black 1px;
+  position: relative;
+  z-index: 1;
 }
 
 .restaurants__bas {
@@ -203,6 +205,15 @@ main {
 .restaurants__bas__coeur {
   border: solid yellowgreen 1px;
   width: 20%;
+}
+
+.nouveau {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  background-color: green;
+  color: blue;
+  width: 5em;
 }
 
 /*# sourceMappingURL=style.css.map */
