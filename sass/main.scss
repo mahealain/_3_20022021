@@ -94,28 +94,32 @@ main {
   margin-bottom: 1em;
   align-content: stretch;
 }
+.restaurants__card__image img {
+  position: relative;
+  z-index: 15;
+}
 .restaurants__card img {
-  height: 60%;
+  position: absolute;
+  height: 55%;
   width: 95%;
   margin-top: 1em;
   margin-bottom: 0em;
+  padding: 0;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
   border: solid black 1px;
-  position: relative;
-  z-index: 1;
 }
 .restaurants__bas {
   flex-direction: row;
   margin-top: 0em;
-  height: 30%;
+  height: 25%;
   width: 95%;
   border: solid purple 2px;
   margin: auto;
 }
 .restaurants__bas__gauche {
   border: solid blue 1px;
-  width: 60%;
+  width: 50%;
 }
 .restaurants__bas__coeur {
   border: solid yellowgreen 1px;
@@ -125,7 +129,20 @@ main {
   position: absolute;
   top: 1em;
   right: 1em;
-  background-color: green;
-  color: blue;
+  background-color: $colour-tertiaire;
+  color: darken($colour-tertiaire, 30);
   width: 5em;
+  font-weight: bold;
+  border-radius: 10%;
+}
+
+.fa-list-ul,
+.fa-mobile-alt {
+  font-size: 2em;
+  color: lighten($colour-footer, 20%);
+}
+
+.fa-store {
+  color: $colour-primary;
+  font-size: 2em;
 }
