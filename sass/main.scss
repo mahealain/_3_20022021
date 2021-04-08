@@ -18,6 +18,8 @@ main {
 }
 .restaurants {
   background-color: $colour-nuanceclair;
+  display: flex;
+  flex-direction: column;
 }
 
 .fa-utensils {
@@ -79,4 +81,41 @@ main {
 }
 .fa-mobile-alt {
   font-size: 2em;
+}
+
+.restaurants__card {
+  display: flex;
+  flex-direction: column;
+  border: solid red 3px;
+  width: 95%;
+  height: 400px;
+  margin: auto;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  align-content: stretch;
+}
+.restaurants__card img {
+  height: 50%;
+  width: 95%;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+  border: solid black 1px;
+}
+.restaurants__bas {
+  flex-direction: row;
+  margin-top: 0em;
+  height: 30%;
+  width: 95%;
+  border: solid purple 2px;
+  margin: auto;
+}
+.restaurants__bas__gauche {
+  border: solid blue 1px;
+  width: 60%;
+}
+.restaurants__bas__coeur {
+  border: solid yellowgreen 1px;
+  width: 20%;
 }
