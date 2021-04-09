@@ -177,15 +177,17 @@ main {
 }
 
 .restaurants__card__image img {
-  position: relative;
+  position: absolute;
   z-index: 15;
+  top: 0;
+  left: 0;
 }
 
 .restaurants__card img {
-  position: absolute;
+  position: relative;
   height: 55%;
   width: 95%;
-  margin-top: 1em;
+  margin-top: 0em;
   margin-bottom: 0em;
   padding: 0;
   object-fit: cover;
