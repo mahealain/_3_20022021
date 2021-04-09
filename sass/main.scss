@@ -84,21 +84,12 @@ main {
 }
 
 .restaurants__card {
-  display: flex;
-  flex-direction: column;
-  border: solid red 3px;
-  width: 95%;
-  height: 400px;
-  margin: auto;
-  border-radius: 1em;
-  margin-bottom: 1em;
-  align-content: stretch;
+  position: relative;
+  height: 430px;
 }
 .restaurants__card__image img {
   position: absolute;
-  z-index: 15;
-  top: 0;
-  left: 0;
+  z-index: 1;
 }
 .restaurants__card img {
   position: relative;
@@ -111,7 +102,26 @@ main {
   border-radius: 20px 20px 0 0;
   border: solid black 1px;
 }
+.restaurants__card__nouveau {
+  position: absolute;
+  top: 2px;
+  right: 20px;
+  width: 5em;
+  height: 2em;
+  z-index: 2;
+  font-size: 200%;
+}
+.restaurants__card__nouveau__texte {
+  font-size: 1em;
+  width: 10;
+  height: 10;
+  background-color: $colour-tertiaire;
+  color: darken($colour-tertiaire, 40);
+  font-weight: bold;
+  border-radius: 4%;
+}
 .restaurants__bas {
+  display: flex;
   flex-direction: row;
   margin-top: 0em;
   height: 25%;
@@ -121,21 +131,11 @@ main {
 }
 .restaurants__bas__gauche {
   border: solid blue 1px;
-  width: 50%;
+  width: 79%;
 }
 .restaurants__bas__coeur {
   border: solid yellowgreen 1px;
-  width: 20%;
-}
-.nouveau {
-  position: absolute;
-  top: 1em;
-  right: 1em;
-  background-color: $colour-tertiaire;
-  color: darken($colour-tertiaire, 30);
-  width: 5em;
-  font-weight: bold;
-  border-radius: 10%;
+  width: 19%;
 }
 
 .fa-list-ul,
