@@ -11,12 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.roboto--font {
   font-family: "Shrikhand", cursive;
 }
 
@@ -172,6 +167,12 @@ main {
 .restaurants__card__image img {
   position: absolute;
   z-index: 1;
+}
+
+.restaurants__card__image2 img {
+  position: absolute;
+  z-index: 1;
+  max-height: 250px;
 }
 
 .restaurants__card img {
