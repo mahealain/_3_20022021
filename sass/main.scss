@@ -153,5 +153,28 @@ main {
   font-size: 2em;
 }
 .fa-heart {
-  font-size: 2em;
+  font-size: 1em;
+}
+
+.header__img--menu {
+  z-index: 1;
+  max-height: 250px;
+  width: 100%;
+  border: solid black 2px;
+  margin: 0.2em 0;
+}
+
+.header__titre {
+  z-index: 2;
+  top: 8em;
+  border-radius: 2em 2em 0 0;
+
+  margin-top: -1.3em;
+  background-color: white;
+
+  width: 100%;
+}
+.header__img--box {
+  display: flex;
+  flex-direction: column;
 }
