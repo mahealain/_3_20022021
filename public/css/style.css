@@ -265,4 +265,8 @@ main {
   flex-direction: column;
 }
 
+main {
+  text-align: left;
+}
+
 /*# sourceMappingURL=style.css.map */
