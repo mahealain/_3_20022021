@@ -182,3 +182,19 @@ main {
 main {
   text-align: left;
 }
+.fa-arrow-left {
+  position: absolute;
+  top: 1.5em;
+  left: 0.5em;
+  font-size: 1.5em;
+  margin-left: 1em;
+  border: solid red 2px;
+}
+
+.hautmenu {
+  display: flex;
+  flex-direction: row;
+  border: yellowgreen 2px solid;
+  justify-content: center;
+  align-items: center;
+}
