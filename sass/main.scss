@@ -63,7 +63,6 @@ main {
   left: -3em;
 }
 .fas fa-list-ul {
-  border: solid 2px purple;
 }
 .Fonctionnement__btn p {
   display: flex;
@@ -104,20 +103,19 @@ main {
   padding: 0;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
-  border: solid black 1px;
 }
 .restaurants__card__nouveau {
   position: absolute;
   top: 2px;
-  right: 20px;
-  width: 5em;
+  right: 18px;
+  width: 4em;
   height: 2em;
   z-index: 2;
   font-size: 200%;
 }
 .restaurants__card__nouveau__texte {
-  font-size: 1em;
-  width: 10;
+  font-size: 0.8em;
+  width: 4;
   height: 10;
   background-color: $colour-tertiaire;
   color: darken($colour-tertiaire, 40);
@@ -130,15 +128,13 @@ main {
   margin-top: 0em;
   height: 25%;
   width: 95%;
-  border: solid purple 2px;
+
   margin: auto;
 }
 .restaurants__bas__gauche {
-  border: solid blue 1px;
   width: 79%;
 }
 .restaurants__bas__coeur {
-  border: solid yellowgreen 1px;
   width: 19%;
 }
 
@@ -160,7 +156,6 @@ main {
   z-index: 1;
   max-height: 250px;
   width: 100%;
-  border: solid black 2px;
   margin: 0.2em 0;
 }
 
@@ -187,13 +182,12 @@ main {
   top: 1.5em;
   left: 0.5em;
   font-size: 1.5em;
-  border: solid red 2px;
 }
 
 .hautmenu {
   display: flex;
   flex-direction: row;
-  border: yellowgreen 2px solid;
+
   justify-content: center;
   align-items: center;
   padding: 0.1em;
