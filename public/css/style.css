@@ -275,4 +275,19 @@ main {
   padding: 0.1em;
 }
 
+.carrevert {
+  height: 0.3em;
+  width: 3.5em;
+  background-color: #99e2e0;
+}
+
+.plat__card {
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 3px #d5d5d5;
+}
+
 /*# sourceMappingURL=style.css.map */
