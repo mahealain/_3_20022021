@@ -47,10 +47,13 @@ main {
 
 .Fonctionnement__btn-color {
   background: lighten($colour-nuancefonce, 5%);
+  margin:auto;
+  margin-bottom: 1em;
 }
 
 .Fonctionnement__btn-color2 {
   background: lighten($colour-primary, 35%);
+  margin:auto;
 }
 .Fonctionnement__btn_chiffre {
   background-color: darken($colour-primary, 20%);
@@ -156,7 +159,9 @@ main {
   z-index: 1;
   max-height: 250px;
   width: 100%;
-  margin: 0.2em 0;
+  margin: 0 0;
+  padding: 0 0;
+ background-color: $colour-bordure1;
 }
 
 .header__titre {
@@ -166,7 +171,7 @@ main {
 
   margin-top: -1.8em;
   padding-top: 1em;
-  background-color: white;
+  background-color: $colour-bordure1;
 
   width: 100%;
 }
@@ -197,13 +202,41 @@ main {
   height: 0.3em;
   width: 3.5em;
   background-color: $colour-tertiaire;
+  margin-left: 1.8em;
+  margin-bottom: 0.5em;
 }
 
 .plat__card {
   border-radius: 20px;
-  text-align: center;
+  text-align: left;
+  padding-left: 0.5em;
   width: 90%;
   margin: auto;
   margin-bottom: 20px;
-  box-shadow: 3px 3px 3px $colour-bordure1;
+  box-shadow: 3px 3px 3px $colour-footer;
+  background-color: white;
+}
+.main__menu{
+ background-color: $colour-bordure1;
+ margin-top: -1.4em;
+}
+.espace__gauche_titre_H2{
+  margin-left: 1.3em;
+}
+.main__menu__argent{
+  right: 1em;
+  font-weight: bold;
+  padding-right: 1.8em;
+}
+
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+.point {
+ 
+  border: 1px solid;
+  padding: 2px 5px;
+ /* Nécessaires pour text-overflow */
+  white-space: nowrap;
+  overflow: hidden;
 }
