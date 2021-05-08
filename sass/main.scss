@@ -54,6 +54,7 @@ main {
 .Fonctionnement__btn-color2 {
   background: lighten($colour-primary, 35%);
   margin:auto;
+  margin-bottom: 1em;
 }
 .Fonctionnement__btn_chiffre {
   background-color: darken($colour-primary, 20%);
@@ -87,6 +88,7 @@ main {
 }
 .restaurants__card__image img {
   position: absolute;
+  margin:auto;
   z-index: 1;
 }
 
@@ -114,6 +116,7 @@ main {
   height: 2em;
   z-index: 2;
   font-size: 200%;
+  
 }
 .restaurants__card__nouveau__texte {
   font-size: 0.8em;

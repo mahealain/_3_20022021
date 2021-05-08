@@ -129,6 +129,7 @@ main {
 .Fonctionnement__btn-color2 {
   background: #f2eafb;
   margin: auto;
+  margin-bottom: 1em;
 }
 
 .Fonctionnement__btn_chiffre {
@@ -166,6 +167,7 @@ main {
 
 .restaurants__card__image img {
   position: absolute;
+  margin: auto;
   z-index: 1;
 }
 
