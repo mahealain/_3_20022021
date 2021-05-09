@@ -131,13 +131,15 @@ main {
   
 }
 .restaurants__card__nouveau__texte {
-  font-size: 0.8em;
-  width: 4;
-  height: 10;
+  font-size: 0.6em;
+  text-align: center;
+  width: 5em;
+  height: 2em;
+  line-height: 2em;/*doit etre de la meme grandeur que height pour centre verticalement*/
   background-color: $colour-tertiaire;
   color: darken($colour-tertiaire, 40);
   font-weight: bold;
-  border-radius: 4%;
+  border-radius: 6%;
 }
 .restaurants__bas {
   display: flex;

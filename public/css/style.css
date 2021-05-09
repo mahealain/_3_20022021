@@ -208,13 +208,16 @@ main {
 }
 
 .restaurants__card__nouveau__texte {
-  font-size: 0.8em;
-  width: 4;
-  height: 10;
+  font-size: 0.6em;
+  text-align: center;
+  width: 5em;
+  height: 2em;
+  line-height: 2em;
+  /*doit etre de la meme grandeur que height pour centre verticalement*/
   background-color: #99e2e0;
   color: #278886;
   font-weight: bold;
-  border-radius: 4%;
+  border-radius: 6%;
 }
 
 .restaurants__bas {
