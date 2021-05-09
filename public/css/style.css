@@ -166,7 +166,8 @@ main {
   margin: auto;
   border-radius: 20px 20px 20px 20px;
   width: 90%;
-  height: 80%;
+  height: 90%;
+  margin-bottom: 2em;
 }
 
 .restaurants__card__image img {
