@@ -333,12 +333,17 @@ main {
   text-overflow: ellipsis;
 }
 
-.point {
+p {
   border: 1px solid;
   padding: 2px 5px;
   /* Nécessaires pour text-overflow */
   white-space: nowrap;
   overflow: hidden;
+}
+
+.plat__card__p {
+  display: flex;
+  direction: row;
 }
 
 /*# sourceMappingURL=style.css.map */
