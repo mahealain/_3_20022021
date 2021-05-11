@@ -247,18 +247,34 @@ main {
   padding-right: 1.8em;
 }
 
+
+
+
 .overflow-ellipsis {
   text-overflow: ellipsis;
 }
-p {
- 
-  border: 1px solid;
+
+.plat__card__p{
+
+  display:flex;
+  direction: row;
+  overflow: hidden;
+
+}
+
+.plat__card__p p {
+  
+
   padding: 2px 5px;
  /* Nécessaires pour text-overflow */
   white-space: nowrap;
   overflow: hidden;
+  
 }
-.plat__card__p{
-  display:flex;
-  direction: row;
+.point{
+  flex:90;
+  overflow: hidden;
+}
+.main__menu__argent{
+flex:1;
 }
