@@ -187,7 +187,7 @@ main {
 
   margin-top: -1.8em;
   padding-top: 1em;
-  background-color: $colour-bordure1;
+  background-color: $colour-plat__card;
 
   width: 100%;
 }
@@ -230,11 +230,13 @@ main {
   margin: auto;
   margin-bottom: 20px;
   box-shadow: 3px 3px 3px $colour-footer;
-  background-color: white;
+  background-color:$colour-plat__card--fond;
+  
 }
 .main__menu{
- background-color: $colour-bordure1;
+
  margin-top: -1.4em;
+ background-color: $colour-plat__card;
 }
 .espace__gauche_titre_H2{
   margin-left: 1.3em;
