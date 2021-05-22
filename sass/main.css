@@ -16,6 +16,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: "Roboto", sans-serif;
+  padding:0;
 }
 
 .roboto--font {
