@@ -27,6 +27,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: #eaeaea;
+  box-shadow: 10em 10em 1em blue;
 }
 
 .header__bas__btn {
@@ -42,6 +44,7 @@ body {
 .header__milieu p {
   font-weight: bold;
   font-size: 1.4em;
+  color: #d5d5d5;
 }
 
 .header__bas p {
@@ -49,14 +52,9 @@ body {
 }
 
 .logo {
-  padding-top: 1em;
-  margin: auto;
-  box-shadow: 0px 4px 3px #d5d5d5;
-  background-color: #eaeaea;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 0.5em;
-  padding-top: 0.5;
+  padding-top: 0.5em;
+  padding-bottom: 0.5;
+  box-shadow: 1em 1em 1em blue;
 }
 
 .fa-map-marker-alt {
@@ -357,6 +355,14 @@ main {
 
 .main__menu__argent {
   flex: 1;
+}
+
+.fonctionnement h1 {
+  margin-left: 1em;
+}
+
+.restaurants h1 {
+  margin-left: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -398,3 +398,11 @@ main {
   white-space: nowrap;
   overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
+
+.fonctionnement h1{
+  margin-left: 1em;
+ 
+ }
+ .restaurants h1{
+   margin-left:1em;
+ }
