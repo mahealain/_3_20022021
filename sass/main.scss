@@ -60,28 +60,34 @@ main {
   margin:auto;
   margin-bottom: 1em;
 }
-.Fonctionnement__btn_chiffre {
+.Fonctionnement__btn__chiffre {
   background-color: darken($colour-primary, 20%);
-  padding: 1em;
+  padding:0.5em;
   border-radius: 50%;
   color: white;
-}
+  height: auto;
+  margin-left:-1em;
+  }
+
+
 .fonctionnement__btn-placement {
   position: absolute;
-  left: -3em;
+  left: -1em;
 }
 
 .Fonctionnement__btn p {
   display: flex;
   flex-direction: row;
-
+  white-space: nowrap;          /*http://patatos.over-blog.com/article-comment-eviter-un-retour-a-la-ligne-en-css-102725385.html*/
   position: relative;
+  
   width: 90%;
-  margin: auto;
+  margin:auto;
+  height: 2em;
+  left:0.5em;
+  line-height: 2em;/*https://www.journaldunet.fr/web-tech/developpement/1202779-comment-obtenir-un-texte-aligne-verticalement-au-milieu-d-une-div */
 }
-.Fonctionnement__btn_chiffre {
-  height: auto;
-}
+
 .fa-mobile-alt {
   font-size: 2em;
 }
