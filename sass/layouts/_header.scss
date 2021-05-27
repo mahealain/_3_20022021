@@ -7,11 +7,13 @@
 
 .header__milieu {
   
-  display: flex;
+ 
   flex-direction: column;
   text-align: center;
   background-color: $colour-nuancefonce;
-  box-shadow: 10em 10em 1em blue;
+  padding:0.01em;
+  border:solid red $colour-nuancefonce;
+ 
 }
 
 .header__bas__btn {
@@ -27,7 +29,7 @@
 .header__milieu p {
   font-weight: bold;
   font-size: 1.4em;
-  color:$colour-bordure1;
+  color:$colour-footer;
 }
 .header__bas p {
   font-size: 1.4em;
@@ -36,7 +38,7 @@
   padding-top: 0.5em;
 
   padding-bottom: 0.5;
-  box-shadow: 1em 1em 1em blue;
+  box-shadow: 0 0.5em 1em $colour-bordure1;
  
 }
 

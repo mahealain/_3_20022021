@@ -24,11 +24,11 @@ body {
 }
 
 .header__milieu {
-  display: flex;
   flex-direction: column;
   text-align: center;
   background-color: #eaeaea;
-  box-shadow: 10em 10em 1em blue;
+  padding: 0.01em;
+  border: solid red #eaeaea;
 }
 
 .header__bas__btn {
@@ -44,7 +44,7 @@ body {
 .header__milieu p {
   font-weight: bold;
   font-size: 1.4em;
-  color: #d5d5d5;
+  color: #353535;
 }
 
 .header__bas p {
@@ -54,7 +54,7 @@ body {
 .logo {
   padding-top: 0.5em;
   padding-bottom: 0.5;
-  box-shadow: 1em 1em 1em blue;
+  box-shadow: 0 0.5em 1em #d5d5d5;
 }
 
 .fa-map-marker-alt {
@@ -78,6 +78,10 @@ footer {
 
 footer a {
   color: white;
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -114,8 +118,8 @@ main {
   text-align: center;
   width: 80%;
   margin: auto;
-  margin: 20px 20px;
-  padding: 2em;
+  margin: 9px 9px;
+  padding: 0.5em;
   margin-bottom: 20px;
   box-shadow: 2px 2px 2px #eaeaea;
   display: flex;

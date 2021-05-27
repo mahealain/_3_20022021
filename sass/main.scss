@@ -9,6 +9,10 @@
 @import "./layouts/footer";
 @import "./pages/accueil";
 
+a{
+  text-decoration: none;
+} 
+
 main {
   display: flex;
   flex-direction: column;
@@ -37,8 +41,8 @@ main {
   text-align: center;
   width: 80%;
   margin: auto;
-  margin: 20px 20px;
-  padding: 2em;
+  margin: 9px 9px;
+  padding: 0.5em;
   margin-bottom: 20px;
   box-shadow: 2px 2px 2px $colour-nuancefonce;
   display: flex;
