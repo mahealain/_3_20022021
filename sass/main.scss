@@ -274,15 +274,16 @@ main {
 
 }
 
- {
+ 
   
-
+.plat__card__p p{
   padding: 2px 5px;
  /* Nécessaires pour overflow-ellipsis */
   white-space: nowrap;
   overflow: hidden;
   
 }
+
 .plat__card__p h2 {
   
 
