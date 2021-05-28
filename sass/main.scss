@@ -255,7 +255,9 @@ main {
   right: 1em;
   font-weight: bold;
   padding-right: 1.8em;
+  flex:1;
 }
+
 
 
 
@@ -281,13 +283,24 @@ main {
   overflow: hidden;
   
 }
+.plat__card__p h2 {
+  
+
+  padding: 2px 5px;
+ /* Nécessaires pour text-overflow */
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
 .point{
   flex:90;
   overflow: hidden;
 }
-.main__menu__argent{
-flex:1;
+.point2{
+  overflow: hidden;
 }
+
+
 
 .fonctionnement h1{
   margin-left: 1em;
