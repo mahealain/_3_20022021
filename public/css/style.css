@@ -28,7 +28,7 @@ body {
   text-align: center;
   background-color: #eaeaea;
   padding: 0.01em;
-  box-shadow: -2px -6px 4px #d5d5d5;
+  height: 100%;
 }
 
 .header__bas__btn {
@@ -52,9 +52,11 @@ body {
 }
 
 .logo {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  box-shadow: 0 0.5em 1em #d5d5d5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1em;
 }
 
 .fa-map-marker-alt {
@@ -156,7 +158,7 @@ main {
   display: flex;
   flex-direction: row;
   white-space: nowrap;
-  /*http://patatos.over-blog.com/article-comment-eviter-un-retour-a-la-ligne-en-css-102725385.html*/
+  /*http://patatos.over-b.com/article-comment-eviter-un-retour-a-la-ligne-en-css-102725385.html*/
   position: relative;
   width: 90%;
   margin: auto;
@@ -164,6 +166,13 @@ main {
   left: 0.5em;
   line-height: 2em;
   /*https://www.journaldunet.fr/web-tech/developpement/1202779-comment-obtenir-un-texte-aligne-verticalement-au-milieu-d-une-div */
+}
+
+.Fonctionnement__btn__p p {
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  color: black;
 }
 
 .fa-mobile-alt {
@@ -303,6 +312,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 0.1em;
+  margin: 0;
 }
 
 .carrevert {
@@ -379,6 +389,13 @@ main {
 
 .restaurants h1 {
   margin-left: 1em;
+}
+
+.roboto--font {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0em 0.15em 0.1em #d5d5d5;
 }
 
 /*# sourceMappingURL=style.css.map */
