@@ -412,12 +412,17 @@ main {
   display: flex;
 }
 
+.plat__card:hover .animation__essai {
+  display: block;
+}
+
 .animation__essai {
   margin-left: 50px;
   width: 200px;
   background-color: #99e2e0;
-  animation: essai__animation 2s infinite alternate;
+  animation: essai__animation 5s infinite alternate;
   border-radius: 0 20px 20px 0;
+  display: none;
 }
 
 @keyframes essai__animation {
