@@ -347,7 +347,7 @@ box-shadow: 0em 0.15em 0.1em $colour-bordure1;
  display:flex;
 }
 
-.plat__card:hover .animation__essai{
+.plat__card:hover .animation__essai{ /*https://blog.partiprof.fr/afficher-div-survol-dun-div-html-css/*/
   display: block;
 }
 

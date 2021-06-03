@@ -413,6 +413,7 @@ main {
 }
 
 .plat__card:hover .animation__essai {
+  /*https://blog.partiprof.fr/afficher-div-survol-dun-div-html-css/*/
   display: block;
 }
 
