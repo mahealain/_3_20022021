@@ -326,12 +326,15 @@ main {
 .plat__card {
   border-radius: 20px;
   text-align: left;
-  padding-left: 0.5em;
+  padding: 0;
   width: 90%;
   margin: auto;
   margin-bottom: 20px;
   box-shadow: 3px 3px 3px #353535;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
 
 .main__menu {
@@ -396,6 +399,38 @@ main {
   width: 100%;
   height: 100%;
   box-shadow: 0em 0.15em 0.1em #d5d5d5;
+}
+
+.colonne {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.animation__essai {
+  margin-left: 50px;
+  width: 200px;
+  background-color: #99e2e0;
+  animation: essai__animation 2s infinite alternate;
+  border-radius: 0 20px 20px 0;
+}
+
+@keyframes essai__animation {
+  0% {
+    width: 0px;
+  }
+  25% {
+    width: 50px;
+  }
+  50% {
+    width: 150px;
+  }
+  75% {
+    width: 200px;
+  }
+  100% {
+    width: 250px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
