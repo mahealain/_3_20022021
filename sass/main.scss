@@ -331,21 +331,32 @@ box-shadow: 0em 0.15em 0.1em $colour-bordure1;
  }
  
  
-
-
-
-
-
  .colonne{
   display: flex;
   flex-direction: column;
-  
  text-align: left;
  padding: 0;
  width: 90%;
- margin: auto;
+ margin-left: 0;
  display:flex;
  height: 100%;
+ border:solid 2px blue;
+ border-radius: 20px 0 0 20px;
+ 
+}
+.box{
+  display: flex;
+  flex-direction: column;
+ text-align: left;
+ padding: 3.5em;
+ width: 20%;
+ margin: auto;
+ margin-top:0;
+ margin-bottom: 0;
+ display:flex;
+ height: 100%;
+ border:solid 2px purple;
+ border-radius: 0 20px 20px 0;
 }
 
 
