@@ -435,4 +435,16 @@ main {
   /*https://www.joshwcomeau.com/animation/css-transitions/*/
 }
 
+.plat__card:hover .fas fa-check-circle {
+  display: inline-block;
+  transform: rotate(45deg) translateX(180px);
+  transition: 2s;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  display: inline-block;
+}
+
 /*# sourceMappingURL=style.css.map */
