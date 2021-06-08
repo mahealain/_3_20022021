@@ -350,7 +350,6 @@ main {
   right: 1em;
   font-weight: bold;
   padding-right: 1.8em;
-  flex: 1;
 }
 
 .overflow-ellipsis {
@@ -378,7 +377,6 @@ main {
 }
 
 .point {
-  flex: 90;
   overflow: hidden;
 }
 
@@ -404,44 +402,37 @@ main {
 .colonne {
   display: flex;
   flex-direction: column;
-  flex: 1;
   text-align: left;
   padding: 0;
   width: 90%;
   margin: auto;
   display: flex;
+  height: 100%;
 }
 
-.plat__card:hover .animation__essai {
-  /*https://blog.partiprof.fr/afficher-div-survol-dun-div-html-css/*/
-  display: block;
-}
-
-.animation__essai {
-  margin-left: 50px;
-  width: 200px;
-  background-color: #99e2e0;
-  animation: essai__animation 1s infinite alternate;
+.box {
+  width: 0px;
   border-radius: 0 20px 20px 0;
-  display: none;
+  background: #99e2e0;
+  margin-bottom: 0 0 0 0;
+  height: 100%;
+  transition: 1s;
+  color: white;
+  font-size: 5em;
 }
 
-@keyframes essai__animation {
-  0% {
-    width: 0px;
-  }
-  25% {
-    width: 25px;
-  }
-  50% {
-    width: 50px;
-  }
-  75% {
-    width: 75px;
-  }
-  100% {
-    width: 100px;
-  }
+.plat__card:hover .box {
+  color: #99e2e0;
+  cursor: pointer;
+  width: 150px;
+  transition: 2s;
+  height: 100%;
+  color: white;
+  font-size: 5em;
+  margin: auto;
+  padding: auto;
+  will-change: transform;
+  /*https://www.joshwcomeau.com/animation/css-transitions/*/
 }
 
 /*# sourceMappingURL=style.css.map */
