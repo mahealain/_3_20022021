@@ -456,6 +456,8 @@ main {
   background-color: #99e2e0;
   color: white;
   margin: auto;
+  transform: rotate(0turn);
+  transition: transform 2s ease-in-out;
 }
 
 .plat__card:hover .fa-check-circle {
@@ -463,6 +465,8 @@ main {
   background-color: #99e2e0;
   color: white;
   margin: auto;
+  transform: rotate(1turn);
+  transition: transform 1s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */

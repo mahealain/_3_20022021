@@ -331,8 +331,8 @@ box-shadow: 0em 0.15em 0.1em $colour-bordure1;
  
  
  .colonne{
-  display: flex;
-  flex-direction: column;
+ display: flex;
+ flex-direction: column;
  text-align: left;
  padding: 0; 
  margin-left: 0;
@@ -386,6 +386,8 @@ box-shadow: 0em 0.15em 0.1em $colour-bordure1;
   background-color:$colour-tertiaire ;
   color:white;
   margin:auto;
+  transform: rotate(0turn);
+  transition:transform 2s ease-in-out;
   
 }
 .plat__card:hover .fa-check-circle{
@@ -393,6 +395,8 @@ box-shadow: 0em 0.15em 0.1em $colour-bordure1;
   background-color:$colour-tertiaire ; ;
   color:white;
   margin:auto;
+  transform: rotate(1turn);
+  transition:transform 1s ease-in-out;
   
 }
 
