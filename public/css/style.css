@@ -473,7 +473,7 @@ main {
   transition-duration: 0;
 }
 
-.plat__card:hover .box {
+.plat__card:active .box {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -499,7 +499,7 @@ main {
   transition: transform 2s ease-in-out;
 }
 
-.plat__card:hover .fa-check-circle {
+.plat__card:active .fa-check-circle {
   font-size: 3em;
   background-color: #99e2e0;
   color: white;
