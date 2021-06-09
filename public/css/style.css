@@ -115,17 +115,47 @@ main {
   text-align: center;
 }
 
-.Fonctionnement__btn {
+.Fonctionnement__btn1 {
   border-radius: 25px;
   text-align: center;
   width: 80%;
   margin: auto;
-  margin: 9px 9px;
-  padding: 0.5em;
-  margin-bottom: 20px;
   box-shadow: 2px 2px 2px #eaeaea;
   display: flex;
   flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: solid 3px magenta;
+}
+
+.Fonctionnement__btn2 {
+  border-radius: 25px;
+  text-align: center;
+  width: 80%;
+  box-shadow: 2px 2px 2px #eaeaea;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 5em;
+  right: 0;
+  left: 0;
+  border: solid 3px black;
+}
+
+.Fonctionnement__btn3 {
+  border-radius: 25px;
+  text-align: center;
+  width: 80%;
+  box-shadow: 2px 2px 2px #eaeaea;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 10em;
+  right: 0;
+  left: 0em;
+  border: solid 3px green;
 }
 
 .Fonctionnement__btn-color {
@@ -149,34 +179,33 @@ main {
   margin-left: -1em;
 }
 
-.fonctionnement__btn-placement {
-  position: absolute;
-  left: -1em;
-}
-
-.Fonctionnement__btn p {
-  display: flex;
-  flex-direction: row;
-  white-space: nowrap;
-  /*http://patatos.over-b.com/article-comment-eviter-un-retour-a-la-ligne-en-css-102725385.html*/
+.Fonctionnement__btn-placement {
   position: relative;
-  width: 90%;
-  margin: auto;
-  height: 2em;
-  left: 0.5em;
-  line-height: 2em;
-  /*https://www.journaldunet.fr/web-tech/developpement/1202779-comment-obtenir-un-texte-aligne-verticalement-au-milieu-d-une-div */
+  left: -0.08em;
 }
 
-.Fonctionnement__btn__p p {
+.Fonctionnement__btn__p {
   font-weight: bold;
   font-size: larger;
   text-align: center;
   color: black;
+  white-space: nowrap;
+  /*http://patatos.over-b.com/article-comment-eviter-un-retour-a-la-ligne-en-css-102725385.html*/
+  position: absolute;
+  left: 3em;
 }
 
-.fa-mobile-alt {
-  font-size: 2em;
+.Fonctionnement__block {
+  border-radius: 25px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  height: 15em;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  border: blue 1px solid;
+  position: relative;
 }
 
 .restaurants__card {
@@ -258,13 +287,19 @@ main {
 
 .fa-list-ul,
 .fa-mobile-alt {
-  font-size: 2em;
+  font-size: 1.2em;
   color: #686868;
+  position: relative;
+  top: 1em;
+  left: 0.7em;
 }
 
 .fa-store {
   color: #9356dc;
-  font-size: 2em;
+  font-size: 1.2em;
+  position: relative;
+  top: 1em;
+  left: 0.7em;
 }
 
 .fa-heart {
@@ -402,6 +437,7 @@ main {
   box-shadow: 0em 0.15em 0.1em #d5d5d5;
 }
 
+/*debut code pour la premier animation****************************************************************************/
 .colonne {
   display: flex;
   flex-direction: column;
@@ -471,5 +507,7 @@ main {
   transform: rotate(1turn);
   transition: transform 1s ease-in-out;
 }
+
+/*fin code pour la premier animation*******************************************************/
 
 /*# sourceMappingURL=style.css.map */
