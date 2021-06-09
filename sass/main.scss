@@ -9,9 +9,9 @@
 @import "./layouts/footer";
 @import "./pages/accueil";
 
-a{
+a {
   text-decoration: none;
-} 
+}
 
 main {
   display: flex;
@@ -51,24 +51,23 @@ main {
 
 .Fonctionnement__btn-color {
   background: lighten($colour-nuancefonce, 5%);
-  margin:auto;
+  margin: auto;
   margin-bottom: 1em;
 }
 
 .Fonctionnement__btn-color2 {
   background: lighten($colour-primary, 35%);
-  margin:auto;
+  margin: auto;
   margin-bottom: 1em;
 }
 .Fonctionnement__btn__chiffre {
   background-color: darken($colour-primary, 20%);
-  padding:0.5em;
+  padding: 0.5em;
   border-radius: 50%;
   color: white;
   height: auto;
-  margin-left:-1em;
-  }
-
+  margin-left: -1em;
+}
 
 .fonctionnement__btn-placement {
   position: absolute;
@@ -78,20 +77,20 @@ main {
 .Fonctionnement__btn p {
   display: flex;
   flex-direction: row;
-  white-space: nowrap;          /*http://patatos.over-b.com/article-comment-eviter-un-retour-a-la-ligne-en-css-102725385.html*/
+  white-space: nowrap; /*http://patatos.over-b.com/article-comment-eviter-un-retour-a-la-ligne-en-css-102725385.html*/
   position: relative;
 
   width: 90%;
-  margin:auto;
+  margin: auto;
   height: 2em;
-  left:0.5em;
-  line-height: 2em;/*https://www.journaldunet.fr/web-tech/developpement/1202779-comment-obtenir-un-texte-aligne-verticalement-au-milieu-d-une-div */
+  left: 0.5em;
+  line-height: 2em; /*https://www.journaldunet.fr/web-tech/developpement/1202779-comment-obtenir-un-texte-aligne-verticalement-au-milieu-d-une-div */
 }
-.Fonctionnement__btn__p p{
+.Fonctionnement__btn__p p {
   font-weight: bold;
   font-size: larger;
   text-align: center;
-  color:black;
+  color: black;
 }
 
 .fa-mobile-alt {
@@ -106,13 +105,10 @@ main {
   width: 90%;
   height: 90%;
   margin-bottom: 2em;
-
-  
- 
 }
 .restaurants__card__image img {
   position: absolute;
-  margin:auto;
+  margin: auto;
   z-index: 1;
 }
 
@@ -144,14 +140,13 @@ main {
   height: 2em;
   z-index: 2;
   font-size: 200%;
-  
 }
 .restaurants__card__nouveau__texte {
   font-size: 0.6em;
   text-align: center;
   width: 5em;
   height: 2em;
-  line-height: 2em;/*doit etre de la meme grandeur que height pour centre verticalement*/
+  line-height: 2em; /*doit etre de la meme grandeur que height pour centre verticalement*/
   background-color: $colour-tertiaire;
   color: darken($colour-tertiaire, 40);
   font-weight: bold;
@@ -193,7 +188,7 @@ main {
   width: 100%;
   margin: 0 0;
   padding: 0 0;
- background-color: $colour-bordure1;
+  background-color: $colour-bordure1;
 }
 
 .header__titre {
@@ -228,7 +223,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 0.1em;
-  margin:0;
+  margin: 0;
 }
 
 .carrevert {
@@ -247,162 +242,132 @@ main {
   margin: auto;
   margin-bottom: 20px;
   box-shadow: 3px 3px 3px $colour-footer;
-  background-color:$colour-plat__card--fond;
-  display:flex;
+  background-color: $colour-plat__card--fond;
+  display: flex;
   flex-direction: row;
-  align-items: stretch ;
+  align-items: stretch;
   overflow: hidden;
-  
 }
 
-.main__menu{
-
- margin-top: -1.4em;
- background-color: $colour-plat__card;
+.main__menu {
+  margin-top: -1.4em;
+  background-color: $colour-plat__card;
 }
-.espace__gauche_titre_H2{
+.espace__gauche_titre_H2 {
   margin-left: 1.3em;
 }
-.main__menu__argent{
+.main__menu__argent {
   right: 1em;
   font-weight: bold;
   padding-right: 1.8em;
-
 }
-
-
-
-
 
 .overflow-ellipsis {
   text-overflow: ellipsis;
 }
 
-.plat__card__p{
-
-  display:flex;
+.plat__card__p {
+  display: flex;
   direction: row;
   overflow: hidden;
-
 }
 
- 
-  
-.plat__card__p p{
+.plat__card__p p {
   padding: 2px 5px;
- /* Nécessaires pour overflow-ellipsis */
+  /* Nécessaires pour overflow-ellipsis */
   white-space: nowrap;
   overflow: hidden;
-  
 }
 
-  .plat__card__p h2{
-
+.plat__card__p h2 {
   padding: 2px 5px;
- /* Nécessaires pour  overflow-ellipsis */
+  /* Nécessaires pour  overflow-ellipsis */
   white-space: nowrap;
   overflow: hidden;
-  
 }
-.point{
-
+.point {
   overflow: hidden;
 }
-.point2{
+.point2 {
   overflow: hidden;
 }
 
-
-
-.fonctionnement h1{
+.fonctionnement h1 {
   margin-left: 1em;
- 
- }
- .restaurants h1{
-   margin-left:1em;
- }
-
- .roboto--font{
-margin:0;
-width: 100%;
-height: 100%;
-box-shadow: 0em 0.15em 0.1em $colour-bordure1;
- }
- 
- 
- .colonne{
- display: flex;
- flex-direction: column;
- text-align: left;
- padding: 0; 
- margin-left: 0;
- display:flex;
- height: 100%;
- border:solid 2px blue;
- border-radius: 20px 0 0 20px;
+}
+.restaurants h1 {
+  margin-left: 1em;
 }
 
-.box{
- display: flex;
- flex-direction: column;
- text-align: left;
- padding: 3em;
- margin: auto;
- margin-top:0;
- margin-bottom: 0;
- margin-right: -10em;
- display:flex;
- height: 100%;
- border:solid 2px purple;
- border-radius: 0 20px 20px 0;
- background-color:$colour-tertiaire ;
- transition-duration:2s;
- 
+.roboto--font {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0em 0.15em 0.1em $colour-bordure1;
 }
 
-.plat__card:hover {
-  cursor: pointer;
-  transition-duration:0;
+.colonne {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0;
+  margin-left: 0;
+  display: flex;
+  height: 100%;
+  border: solid 2px blue;
+  border-radius: 20px 0 0 20px;
 }
-.plat__card:hover .box{
+
+.box {
   display: flex;
   flex-direction: column;
   text-align: left;
   padding: 3em;
   margin: auto;
-  margin-top:0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: -10em;
+  display: flex;
+  height: 100%;
+  border: solid 2px purple;
+  border-radius: 0 20px 20px 0;
+  background-color: $colour-tertiaire;
+  transition-duration: 2s;
+}
+
+.plat__card:hover {
+  cursor: pointer;
+  transition-duration: 0;
+}
+.plat__card:hover .box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 3em;
+  margin: auto;
+  margin-top: 0;
   margin-bottom: 0;
   margin-right: 0em;
-  display:flex;
+  display: flex;
   height: 100%;
-  border:solid 2px purple;
+  border: solid 2px purple;
   border-radius: 0 20px 20px 0;
-  background-color:$colour-tertiaire ;
-  transition-duration:1s;
-
+  background-color: $colour-tertiaire;
+  transition-duration: 1s;
 }
-.fa-check-circle{
+.fa-check-circle {
   font-size: 3em;
-  background-color:$colour-tertiaire ;
-  color:white;
-  margin:auto;
+  background-color: $colour-tertiaire;
+  color: white;
+  margin: auto;
   transform: rotate(0turn);
-  transition:transform 2s ease-in-out;
-  
+  transition: transform 2s ease-in-out;
 }
-.plat__card:hover .fa-check-circle{
+.plat__card:hover .fa-check-circle {
   font-size: 3em;
-  background-color:$colour-tertiaire ; ;
-  color:white;
-  margin:auto;
+  background-color: $colour-tertiaire;
+  color: white;
+  margin: auto;
   transform: rotate(1turn);
-  transition:transform 1s ease-in-out;
-  
+  transition: transform 1s ease-in-out;
 }
-
-
-
-
- 
-
-
