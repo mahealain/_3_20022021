@@ -335,6 +335,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: stretch;
+  overflow: hidden;
 }
 
 .main__menu {
@@ -419,25 +420,45 @@ main {
   margin: auto;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 0;
+  margin-right: -10em;
   display: flex;
   height: 100%;
   border: solid 2px purple;
   border-radius: 0 20px 20px 0;
   background-color: #99e2e0;
+  transition-duration: 2s;
 }
 
-.colonne:hover {
+.plat__card:hover {
   cursor: pointer;
-  transition: transform 500ms;
+  transition-duration: 0;
 }
 
-.colonne:hover .box {
-  transition: transform 500ms;
-  transform: translatex(5px);
+.plat__card:hover .box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 3em;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0em;
+  display: flex;
+  height: 100%;
+  border: solid 2px purple;
+  border-radius: 0 20px 20px 0;
+  background-color: #99e2e0;
+  transition-duration: 1s;
 }
 
 .fa-check-circle {
+  font-size: 3em;
+  background-color: #99e2e0;
+  color: white;
+  margin: auto;
+}
+
+.plat__card:hover .fa-check-circle {
   font-size: 3em;
   background-color: #99e2e0;
   color: white;
