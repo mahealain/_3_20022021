@@ -84,43 +84,20 @@ footer a {
 }
 
 /*debut de mon spinner*/
-.mon_loading_spinner {
-  animation: MonSpinner;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  animation-delay: 0;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  /*sa sait pour que l'animation reste sur opacity0*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-  background-color: #9356dc;
+.loadingspinner {
+  pointer-events: none;
+  width: 2.5em;
+  height: 2.5em;
+  border: 0.4em solid transparent;
+  border-color: #eee;
+  border-top-color: #3e67ec;
+  border-radius: 50%;
+  animation: loadingspin 1s linear infinite;
 }
 
-@keyframes MonSpinner {
-  from {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.97;
-  }
-  40% {
-    opacity: 0.91;
-  }
-  60% {
-    opacity: 0.79;
-  }
-  80% {
-    opacity: 0.55;
-  }
-  to {
-    opacity: 0;
+@keyframes loadingspin {
+  100% {
+    transform: rotate(360deg);
   }
 }
 /*fin de mon spinner*/
@@ -413,6 +390,10 @@ main {
   align-items: stretch;
   overflow: hidden;
 }
+.plat__card:hover {
+  cursor: pointer;
+  transition-duration: 0;
+}
 
 .main__menu {
   margin-top: -1.4em;
@@ -507,11 +488,6 @@ main {
   border-radius: 0 20px 20px 0;
   background-color: #99e2e0;
   transition-duration: 2s;
-}
-
-.plat__card:hover {
-  cursor: pointer;
-  transition-duration: 0;
 }
 
 .plat__card:active .box {
