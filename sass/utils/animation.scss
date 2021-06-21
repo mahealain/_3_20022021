@@ -1,0 +1,64 @@
+/*debut code pour la premier animation****************************************************************************/
+.colonne {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 0;
+  height: 100%;
+  border: solid 2px blue;
+  border-radius: 20px 0 0 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 3em;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: -10em;
+  display: flex;
+  height: 100%;
+  border: solid 2px purple;
+  border-radius: 0 20px 20px 0;
+  background-color: $colour-tertiaire;
+  transition-duration: 2s;
+}
+
+.plat__card:active .box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 3em;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0em;
+  display: flex;
+  height: 100%;
+  border: solid 2px purple;
+  border-radius: 0 20px 20px 0;
+  background-color: $colour-tertiaire;
+  transition-duration: 1s;
+}
+.fa-check-circle {
+  font-size: 3em;
+  background-color: $colour-tertiaire;
+  color: white;
+  margin: auto;
+  transform: rotate(0turn);
+  transition: transform 2s ease-in-out;
+}
+.plat__card:active .fa-check-circle {
+  font-size: 3em;
+  background-color: $colour-tertiaire;
+  color: white;
+  margin: auto;
+  transform: rotate(1turn);
+  transition: transform 1s ease-in-out;
+}
+/*fin code pour la premier animation*******************************************************/
