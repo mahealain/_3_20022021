@@ -158,6 +158,9 @@ footer a {
   background-color: #99e2e0;
   z-index: 10000;
   animation-duration: 3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .loader {
