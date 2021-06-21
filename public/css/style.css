@@ -151,6 +151,15 @@ footer a {
 
 /*fin code pour la premier animation*******************************************************/
 /*debut de mon spinner*/
+.spinner__box {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #99e2e0;
+  z-index: 10000;
+  animation-duration: 3s;
+}
+
 .loader {
   margin: 100px auto;
   font-size: 25px;
