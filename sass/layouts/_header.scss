@@ -6,16 +6,11 @@
 }
 
 .header__milieu {
-  
- 
   flex-direction: column;
   text-align: center;
   background-color: $colour-nuancefonce;
-  padding:0.01em;
+  padding: 0.01em;
   height: 100%;
-  
- 
- 
 }
 
 .header__bas__btn {
@@ -31,28 +26,21 @@
 .header__milieu p {
   font-weight: bold;
   font-size: 1.4em;
-  color:$colour-footer;
+  color: $colour-footer;
 }
 .header__bas p {
   font-size: 1.4em;
 }
 
-  .logo {
-    display: flex;
-    flex-direction: row;
-  
-    justify-content: center;
-    align-items: center;
-    padding: 0.1em;
-  }
+.logo {
+  display: flex;
+  flex-direction: row;
 
-
-
-
-
-
+  justify-content: center;
+  align-items: center;
+  padding: 0.1em;
+}
 
 .fa-map-marker-alt {
   font-size: 1em; /*taille icone de recherche*/
 }
-

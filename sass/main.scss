@@ -13,6 +13,11 @@
 a {
   text-decoration: none;
 }
+body {
+  color: black;
+  background-color: black;
+  z-index: 0;
+}
 
 main {
   display: flex;
@@ -35,6 +40,7 @@ main {
   display: block;
   flex-direction: column;
   text-align: center;
+  background-color: $colour-plat__card--fond;
 }
 
 .Fonctionnement__btn1 {
@@ -256,7 +262,7 @@ main {
 .hautmenu {
   display: flex;
   flex-direction: row;
-
+  background-color: $colour-plat__card--fond;
   justify-content: center;
   align-items: center;
   padding: 0.1em;
@@ -336,7 +342,7 @@ main {
   overflow: hidden;
 }
 
-.fonctionnement h1 {
+.Fonctionnement h1 {
   margin-left: 1em;
 }
 .restaurants h1 {

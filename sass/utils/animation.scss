@@ -69,12 +69,29 @@
   width: 100%;
   background-color: $colour-tertiaire;
   z-index: 10000;
-  animation-duration: 3s;
   display: flex;
   align-items: center;
   justify-content: center;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+
+  animation-name: ferme;
+  animation-delay: 0.1ms;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 }
 
+@keyframes ferme {
+  0% {
+    z-index: 10000;
+  }
+  99% {
+    z-index: 10000;
+  }
+  100% {
+    z-index: -10000;
+  }
+}
 .loader {
   margin: 100px auto;
   font-size: 25px;

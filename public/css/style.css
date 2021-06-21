@@ -157,12 +157,28 @@ footer a {
   width: 100%;
   background-color: #99e2e0;
   z-index: 10000;
-  animation-duration: 3s;
   display: flex;
   align-items: center;
   justify-content: center;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-name: ferme;
+  animation-delay: 0.1ms;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 }
 
+@keyframes ferme {
+  0% {
+    z-index: 10000;
+  }
+  99% {
+    z-index: 10000;
+  }
+  100% {
+    z-index: -10000;
+  }
+}
 .loader {
   margin: 100px auto;
   font-size: 25px;
@@ -235,6 +251,12 @@ a {
   text-decoration: none;
 }
 
+body {
+  color: black;
+  background-color: black;
+  z-index: 0;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -261,6 +283,7 @@ main {
   display: block;
   flex-direction: column;
   text-align: center;
+  background-color: #ffffff;
 }
 
 .Fonctionnement__btn1 {
@@ -492,6 +515,7 @@ main {
 .hautmenu {
   display: flex;
   flex-direction: row;
+  background-color: #ffffff;
   justify-content: center;
   align-items: center;
   padding: 0.1em;
@@ -574,7 +598,7 @@ main {
   overflow: hidden;
 }
 
-.fonctionnement h1 {
+.Fonctionnement h1 {
   margin-left: 1em;
 }
 
