@@ -70,7 +70,11 @@
   background-color: $colour-tertiaire;
   z-index: 10000;
   animation-duration: 3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .loader {
   margin: 100px auto;
   font-size: 25px;
