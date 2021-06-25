@@ -1,0 +1,229 @@
+/*debut code pour la premier animation****************************************************************************/
+.colonne {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 0;
+  height: 100%;
+  border: solid 2px blue;
+  border-radius: 20px 0 0 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 3em;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: -10em;
+  display: flex;
+  height: 100%;
+  border: solid 2px purple;
+  border-radius: 0 20px 20px 0;
+  background-color: $colour-tertiaire;
+  transition-duration: 2s;
+}
+
+.plat__card:active .box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 3em;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0em;
+  display: flex;
+  height: 100%;
+  border: solid 2px purple;
+  border-radius: 0 20px 20px 0;
+  background-color: $colour-tertiaire;
+  transition-duration: 1s;
+}
+.fa-check-circle {
+  font-size: 3em;
+  background-color: $colour-tertiaire;
+  color: white;
+  margin: auto;
+  transform: rotate(0turn);
+  transition: transform 2s ease-in-out;
+}
+.plat__card:active .fa-check-circle {
+  font-size: 3em;
+  background-color: $colour-tertiaire;
+  color: white;
+  margin: auto;
+  transform: rotate(1turn);
+  transition: transform 1s ease-in-out;
+}
+/*fin code pour la premier animation*******************************************************/
+/*debut de mon spinner*/
+.spinner__box {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: $colour-tertiaire;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+
+  animation-name: ferme;
+  animation-delay: 0.1ms;
+  animation-duration: 2.9s;
+  animation-iteration-count: 1;
+}
+
+@keyframes ferme {
+  0% {
+    z-index: 10;
+  }
+  99% {
+    z-index: 10;
+  }
+  100% {
+    z-index: -10;
+  }
+}
+.loader {
+  margin: 100px auto;
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -1.8em;
+  -webkit-animation: myloader 1.1s infinite ease;
+  animation: myloader2 1.1s infinite ease;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+@-webkit-keyframes myloader {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary,
+      1.8em -1.8em 0 0em $colour-secondary2, 2.5em 0em 0 0em $colour-primary2,
+      1.75em 1.75em 0 0em $colour-secondary2, 0em 2.5em 0 0em $colour-primary2,
+      -1.8em 1.8em 0 0em $colour-secondary2, -2.6em 0em 0 0em $colour-primary5,
+      -1.8em -1.8em 0 0em $colour-secondary7;
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary7, 1.8em -1.8em 0 0em #ffffff,
+      2.5em 0em 0 0em $colour-primary2, 1.75em 1.75em 0 0em $colour-secondary2,
+      0em 2.5em 0 0em $colour-primary2, -1.8em 1.8em 0 0em $colour-secondary2,
+      -2.6em 0em 0 0em $colour-primary2, -1.8em -1.8em 0 0em $colour-secondary5;
+  }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary5,
+      1.8em -1.8em 0 0em $colour-secondary7, 2.5em 0em 0 0em $colour-primary,
+      1.75em 1.75em 0 0em $colour-secondary2, 0em 2.5em 0 0em $colour-primary2,
+      -1.8em 1.8em 0 0em $colour-secondary2, -2.6em 0em 0 0em $colour-primary2,
+      -1.8em -1.8em 0 0em $colour-secondary2;
+  }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary2,
+      1.8em -1.8em 0 0em $colour-secondary5, 2.5em 0em 0 0em $colour-primary7,
+      1.75em 1.75em 0 0em $colour-secondary, 0em 2.5em 0 0em $colour-primary2,
+      -1.8em 1.8em 0 0em $colour-secondary2, -2.6em 0em 0 0em $colour-primary2,
+      -1.8em -1.8em 0 0em $colour-secondary2;
+  }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary2,
+      1.8em -1.8em 0 0em $colour-secondary2, 2.5em 0em 0 0em $colour-primary5,
+      1.75em 1.75em 0 0em $colour-secondary7, 0em 2.5em 0 0em $colour-primary,
+      -1.8em 1.8em 0 0em $colour-secondary2, -2.6em 0em 0 0em $colour-primary2,
+      -1.8em -1.8em 0 0em $colour-secondary2;
+  }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary2,
+      1.8em -1.8em 0 0em $colour-secondary2, 2.5em 0em 0 0em $colour-primary2,
+      1.75em 1.75em 0 0em $colour-secondary5, 0em 2.5em 0 0em $colour-primary7,
+      -1.8em 1.8em 0 0em $colour-secondary, -2.6em 0em 0 0em $colour-primary2,
+      -1.8em -1.8em 0 0em $colour-secondary2;
+  }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary2,
+      1.8em -1.8em 0 0em $colour-secondary2,
+      2.5em 0em 0 0em rgba $colour-primary2,
+      1.75em 1.75em 0 0em $colour-secondary2, 0em 2.5em 0 0em $colour-primary5,
+      -1.8em 1.8em 0 0em $colour-secondary7, -2.6em 0em 0 0em $colour-primary,
+      -1.8em -1.8em 0 0em $colour-secondary2;
+  }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary2,
+      1.8em -1.8em 0 0em $colour-secondary2, 2.5em 0em 0 0em $colour-primary2,
+      1.75em 1.75em 0 0em $colour-secondary2, 0em 2.5em 0 0em $colour-primary2,
+      -1.8em 1.8em 0 0em $colour-secondary5, -2.6em 0em 0 0em $colour-primary7,
+      -1.8em -1.8em 0 0em $colour-secondary;
+  }
+}
+@keyframes myloader2 {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary,
+      1.8em -1.8em 0 0em $colour-secondary2, 2.5em 0em 0 0em $colour-primary2,
+      1.75em 1.75em 0 0em $colour-secondary2, 0em 2.5em 0 0em $colour-primary2,
+      -1.8em 1.8em 0 0em $colour-secondary2, -2.6em 0em 0 0em $colour-primary5,
+      -1.8em -1.8em 0 0em $colour-secondary7;
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary7,
+      1.8em -1.8em 0 0em $colour-secondary, 2.5em 0em 0 0em $colour-primary2,
+      1.75em 1.75em 0 0em $colour-secondary2, 0em 2.5em 0 0em $colour-primary2,
+      -1.8em 1.8em 0 0em $colour-secondary2, -2.6em 0em 0 0em $colour-primary2,
+      -1.8em -1.8em 0 0em $colour-secondary5;
+  }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary5,
+      1.8em -1.8em 0 0em $colour-secondary7, 2.5em 0em 0 0em $colour-primary,
+      1.75em 1.75em 0 0em $colour-secondary2, 0em 2.5em 0 0em $colour-primary2,
+      -1.8em 1.8em 0 0em $colour-secondary2, -2.6em 0em 0 0em $colour-primary2,
+      -1.8em -1.8em 0 0em $colour-secondary2;
+  }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary2,
+      1.8em -1.8em 0 0em $colour-secondary5, 2.5em 0em 0 0em $colour-primary7,
+      1.75em 1.75em 0 0em $colour-secondary, 0em 2.5em 0 0em $colour-primary2,
+      -1.8em 1.8em 0 0em $colour-secondary2, -2.6em 0em 0 0em $colour-primary2,
+      -1.8em -1.8em 0 0em $colour-secondary2;
+  }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary2,
+      1.8em -1.8em 0 0em $colour-secondary2, 2.5em 0em 0 0em $colour-primary5,
+      1.75em 1.75em 0 0em $colour-secondary7, 0em 2.5em 0 0em $colour-primary,
+      -1.8em 1.8em 0 0em $colour-secondary2, -2.6em 0em 0 0em r$colour-primary2,
+      -1.8em -1.8em 0 0em $colour-secondary2;
+  }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary2,
+      1.8em -1.8em 0 0em $colour-secondary2, 2.5em 0em 0 0em $colour-primary2,
+      1.75em 1.75em 0 0em $colour-secondary5, 0em 2.5em 0 0em $colour-primary7,
+      -1.8em 1.8em 0 0em $colour-secondary -2.6em 0em 0 0em $colour-primary2,
+      -1.8em -1.8em 0 0em $colour-secondary2;
+  }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary2,
+      1.8em -1.8em 0 0em $colour-secondary2, 2.5em 0em 0 0em $colour-primary2,
+      1.75em 1.75em 0 0em $colour-secondary2, 0em 2.5em 0 0em $colour-primary5,
+      -1.8em 1.8em 0 0em $colour-secondary7, -2.6em 0em 0 0em $colour-primary,
+      -1.8em -1.8em 0 0em $colour-secondary2;
+  }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em $colour-primary2,
+      1.8em -1.8em 0 0em $colour-secondary2, 2.5em 0em 0 0em $colour-primary2,
+      1.75em 1.75em 0 0em $colour-secondary2, 0em 2.5em 0 0em $colour-primary2,
+      -1.8em 1.8em 0 0em $colour-secondary5, -2.6em 0em 0 0em $colour-primary7,
+      -1.8em -1.8em 0 0em $colour-secondary;
+  }
+}
+
+/*fin de mon spinner*/
