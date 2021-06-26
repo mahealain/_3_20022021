@@ -246,16 +246,13 @@ footer a {
 }
 /*fin de mon spinner*/
 /*debut animation coeur*/
-.coeur:hover {
-  background-color: #9356dc;
+.coeur:hover::before {
+  font-size: 2em;
   transition-duration: 1s;
-  box-shadow: #9356dc;
-}
-
-.far fa-heart:hover {
-  color: #9356dc;
-  transition-duration: 1s;
-  box-shadow: #9356dc;
+  background-color: white;
+  background: linear-gradient(180deg, #ff79da, #9356dc);
+  content: "<i class=" far fa-heart "></i>";
+  /*https://developer.mozilla.org/fr/docs/Web/CSS/::before*/
 }
 
 /*fin animation coeur*/

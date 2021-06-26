@@ -228,15 +228,15 @@
 /*fin de mon spinner*/
 /*debut animation coeur*/
 
-.coeur:hover {
-  background-color: $colour-primary;
+.coeur:hover::before {
+  font-size: 2em;
+
   transition-duration: 1s;
-  box-shadow: $colour-primary;
+  background-color: white;
+
+  background: linear-gradient(180deg, $colour-secondary, $colour-primary);
+
+  content: "<i class=" far fa-heart "></i>"; /*https://developer.mozilla.org/fr/docs/Web/CSS/::before*/
 }
 
-.far fa-heart:hover {
-  color: $colour-primary;
-  transition-duration: 1s;
-  box-shadow: $colour-primary;
-}
 /*fin animation coeur*/
