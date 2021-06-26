@@ -5,7 +5,7 @@
   text-align: left;
   margin-left: 0;
   height: 100%;
-  border: solid 2px blue;
+
   border-radius: 20px 0 0 20px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -23,7 +23,6 @@
   margin-right: -10em;
   display: flex;
   height: 100%;
-  border: solid 2px purple;
   border-radius: 0 20px 20px 0;
   background-color: $colour-tertiaire;
   transition-duration: 2s;
@@ -40,7 +39,7 @@
   margin-right: 0em;
   display: flex;
   height: 100%;
-  border: solid 2px purple;
+
   border-radius: 0 20px 20px 0;
   background-color: $colour-tertiaire;
   transition-duration: 1s;
@@ -227,3 +226,17 @@
 }
 
 /*fin de mon spinner*/
+/*debut animation coeur*/
+
+.coeur:hover {
+  background-color: $colour-primary;
+  transition-duration: 1s;
+  box-shadow: $colour-primary;
+}
+
+.far fa-heart:hover {
+  color: $colour-primary;
+  transition-duration: 1s;
+  box-shadow: $colour-primary;
+}
+/*fin animation coeur*/
