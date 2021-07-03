@@ -83,6 +83,12 @@ footer a {
   text-decoration: none;
 }
 
+footer h1 {
+  color: white;
+  text-decoration: none;
+  margin: 2em 0 0 0;
+}
+
 /*debut code pour la premier animation****************************************************************************/
 .colonne {
   display: flex;
