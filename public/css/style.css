@@ -192,12 +192,18 @@ footer a {
   transform: translateZ(0);
 }
 
+.loader__titre {
+  font-size: 0.7em;
+  position: relative;
+  left: 1em;
+}
+
 @-webkit-keyframes myloader {
   0%, 100% {
     box-shadow: 0em -2.6em 0em 0em #9356dc, 1.8em -1.8em 0 0em rgba(255, 121, 218, 0.2), 2.5em 0em 0 0em rgba(147, 86, 220, 0.2), 1.75em 1.75em 0 0em rgba(255, 121, 218, 0.2), 0em 2.5em 0 0em rgba(147, 86, 220, 0.2), -1.8em 1.8em 0 0em rgba(255, 121, 218, 0.2), -2.6em 0em 0 0em rgba(147, 86, 220, 0.5), -1.8em -1.8em 0 0em rgba(255, 121, 218, 0.7);
   }
   12.5% {
-    box-shadow: 0em -2.6em 0em 0em rgba(147, 86, 220, 0.7), 1.8em -1.8em 0 0em #ffffff, 2.5em 0em 0 0em rgba(147, 86, 220, 0.2), 1.75em 1.75em 0 0em rgba(255, 121, 218, 0.2), 0em 2.5em 0 0em rgba(147, 86, 220, 0.2), -1.8em 1.8em 0 0em rgba(255, 121, 218, 0.2), -2.6em 0em 0 0em rgba(147, 86, 220, 0.2), -1.8em -1.8em 0 0em rgba(255, 121, 218, 0.5);
+    box-shadow: 0em -2.6em 0em 0em rgba(147, 86, 220, 0.7), 1.8em -1.8em 0 0em #9356dc, 2.5em 0em 0 0em rgba(147, 86, 220, 0.2), 1.75em 1.75em 0 0em rgba(255, 121, 218, 0.2), 0em 2.5em 0 0em rgba(147, 86, 220, 0.2), -1.8em 1.8em 0 0em rgba(255, 121, 218, 0.2), -2.6em 0em 0 0em rgba(147, 86, 220, 0.2), -1.8em -1.8em 0 0em rgba(255, 121, 218, 0.5);
   }
   25% {
     box-shadow: 0em -2.6em 0em 0em rgba(147, 86, 220, 0.5), 1.8em -1.8em 0 0em rgba(255, 121, 218, 0.7), 2.5em 0em 0 0em #9356dc, 1.75em 1.75em 0 0em rgba(255, 121, 218, 0.2), 0em 2.5em 0 0em rgba(147, 86, 220, 0.2), -1.8em 1.8em 0 0em rgba(255, 121, 218, 0.2), -2.6em 0em 0 0em rgba(147, 86, 220, 0.2), -1.8em -1.8em 0 0em rgba(255, 121, 218, 0.2);
@@ -246,13 +252,14 @@ footer a {
 }
 /*fin de mon spinner*/
 /*debut animation coeur*/
-.coeur:hover::before {
-  font-size: 2em;
+.coeur:hover {
+  font-size: 1em;
   transition-duration: 1s;
-  background-color: white;
-  background: linear-gradient(180deg, #ff79da, #9356dc);
-  content: "<i class=" far fa-heart "></i>";
+  background-color: linear-gradient(180deg, #ff79da, #9356dc);
+  content: "< class=" fas fa-heart "></i>";
   /*https://developer.mozilla.org/fr/docs/Web/CSS/::before*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*fin animation coeur*/
