@@ -314,7 +314,6 @@ main {
   top: 0;
   left: 0;
   right: 0;
-  border: solid 3px magenta;
 }
 
 .Fonctionnement__btn2 {
@@ -328,7 +327,6 @@ main {
   top: 5em;
   right: 0;
   left: 0;
-  border: solid 3px black;
 }
 
 .Fonctionnement__btn3 {
@@ -342,7 +340,6 @@ main {
   top: 10em;
   right: 0;
   left: 0em;
-  border: solid 3px green;
 }
 
 .Fonctionnement__btn-color {
@@ -391,7 +388,6 @@ main {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  border: blue 1px solid;
   position: relative;
 }
 
