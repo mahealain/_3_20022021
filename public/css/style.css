@@ -258,16 +258,66 @@ footer h1 {
 }
 /*fin de mon spinner*/
 /*debut animation coeur*/
-.coeur:hover {
-  font-size: 1em;
-  transition-duration: 1s;
-  background-color: linear-gradient(180deg, #ff79da, #9356dc);
-  content: "< class=" fas fa-heart "></i>";
-  /*https://developer.mozilla.org/fr/docs/Web/CSS/::before*/
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.box__coeur {
+  display: flex;
+  border: solid blue 2px;
+  position: absolute;
+  right: 2em;
 }
 
+.coeur__etat__colorant {
+  opacity: 0;
+  color: linear-gradient(180deg, #ff79da, #9356dc);
+  font-size: 3em;
+  position: relative;
+  left: 1em;
+}
+
+.coeur__etat__normal {
+  opacity: 1;
+  font-size: 3em;
+  position: relative;
+  left: 0em;
+  color: black;
+}
+
+.coeur__etat__colorant:hover {
+  animation-name: coeur__colorant;
+  animation-duration: 5s;
+  animation-delay: 0.1ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.coeur__etat__normal:hover {
+  animation-name: coeur__decolorant;
+  animation-duration: 5s;
+  animation-delay: 0.1ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes coeur__colorant {
+  0% {
+    opacity: 0;
+    z-index: 10;
+  }
+  100% {
+    opacity: 1;
+    color: linear-gradient(180deg, #ff79da, #9356dc);
+    z-index: 5;
+  }
+}
+@keyframes coeur__decolorant {
+  0% {
+    opacity: 1;
+    z-index: 5;
+  }
+  100% {
+    opacity: 0;
+    z-index: 10;
+  }
+}
 /*fin animation coeur*/
 a {
   text-decoration: none;
