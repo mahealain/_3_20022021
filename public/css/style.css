@@ -260,7 +260,7 @@ footer h1 {
 /*debut animation coeur*/
 .box__coeur {
   display: flex;
-  position: absolute;
+  position: relative;
   right: 2em;
   border: solid 3px blue;
 }
@@ -268,14 +268,14 @@ footer h1 {
 .coeur__etat__colorant {
   color: red;
   font-size: 3em;
-  position: relative;
+  position: absolute;
   left: 1em;
   opacity: 0;
 }
 
 .coeur__etat__normal {
   font-size: 3em;
-  position: relative;
+  position: absolute;
   left: 0em;
 }
 
