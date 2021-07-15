@@ -261,12 +261,12 @@ footer h1 {
 .box__coeur {
   display: flex;
   position: relative;
-  right: 2em;
+  right: 0.5em;
   border: solid 3px blue;
 }
 
 .coeur__etat__colorant {
-  color: red;
+  color: linear-gradient(160deg, #ff79da, #9356dc);
   font-size: 2em;
   position: absolute;
   left: 0;
