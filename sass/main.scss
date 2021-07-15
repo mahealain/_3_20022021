@@ -13,6 +13,9 @@
 a {
   text-decoration: none;
 }
+main p a {
+  color: black;
+}
 body {
   color: black;
   z-index: 0;
@@ -197,6 +200,24 @@ main {
 .restaurants__bas__gauche {
   width: 79%;
 }
+.black {
+  color: black;
+}
+
+.black:hover {
+  color: black;
+}
+.black:active {
+  color: black;
+}
+.black:link {
+  color: black;
+}
+
+.black:visited {
+  color: black;
+}
+
 .restaurants__bas__coeur {
   width: 19%;
 }
@@ -346,5 +367,4 @@ main {
   margin: 0;
   width: 100%;
   height: 100%;
-  box-shadow: 0em 0.15em 0.1em $colour-bordure1;
 }
