@@ -238,23 +238,23 @@
 
 .box__coeur {
   display: flex;
-
   position: relative;
   right: 0.5em;
-  border: solid 3px blue;
 }
 .coeur__etat__colorant {
   color: linear-gradient(160deg, $colour-secondary, $colour-primary);
-  font-size: 2em;
+  font-size: 2.5em;
   position: absolute;
-  left: 0;
+  right: 0;
+  top: 0.5em;
   opacity: 0;
 }
 .coeur__etat__normal {
-  font-size: 2em;
+  font-size: 2.5em;
   position: absolute;
   color: black;
-  left: 0;
+  right: 0;
+  top: 0.5em;
 }
 
 .coeur:hover .coeur__etat__colorant {
