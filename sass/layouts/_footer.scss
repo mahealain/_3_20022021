@@ -1,7 +1,7 @@
 footer {
   margin: 0 0 0 0;
   height: auto;
-  display: flex;
+
   width: 100%;
   flex-direction: column;
   padding: 1em 2em;
@@ -9,15 +9,17 @@ footer {
   color: white;
   margin: 0;
   text-align: left;
+  line-height: 0.8px;
 }
 footer a {
   color: white;
   text-decoration: none;
   background-color: $colour-footer;
+  line-height: 0.8px;
 }
 footer p {
-  line-height: 0.5px;
   font-size: 1.4em;
+  line-height: 15px;
 }
 footer h1 {
   font-size: 1.5em;
@@ -27,4 +29,5 @@ footer h1 {
   background-color: $colour-footer;
   top: 10em;
   bottom: 20em;
+  line-height: 40px;
 }
