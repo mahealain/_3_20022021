@@ -10,12 +10,20 @@
 @import "./pages/accueil";
 @import "./utils/animation";
 
+:active {
+  text-decoration: none;
+}
+:visited {
+  text-decoration: none;
+}
+:link {
+  text-decoration: none;
+}
+
 a {
   text-decoration: none;
 }
-main p a {
-  color: black;
-}
+
 body {
   color: black;
   z-index: 0;
@@ -202,20 +210,18 @@ main {
 }
 .black {
   color: black;
-}
-
-.black:hover {
-  color: black;
-}
-.black:active {
-  color: black;
-}
-.black:link {
-  color: black;
-}
-
-.black:visited {
-  color: black;
+  &:hover {
+    color: black;
+  }
+  &:active {
+    color: black;
+  }
+  &:link {
+    color: black;
+  }
+  &:link {
+    color: black;
+  }
 }
 
 .restaurants__bas__coeur {

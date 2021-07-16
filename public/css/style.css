@@ -294,7 +294,7 @@ footer h1 {
 
 .coeur:hover .coeur__etat__colorant {
   animation-name: coeur__colorant;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-delay: 0.1ms;
   animation-iteration-count: 1;
   animation-fill-mode: both;
@@ -302,7 +302,7 @@ footer h1 {
 
 .coeur:hover .coeur__etat__normal {
   animation-name: coeur__decolorant;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-delay: 0.1ms;
   animation-iteration-count: 1;
   animation-fill-mode: both;
@@ -326,12 +326,20 @@ footer h1 {
   }
 }
 /*fin animation coeur*/
-a {
+:active {
   text-decoration: none;
 }
 
-main p a {
-  color: black;
+:visited {
+  text-decoration: none;
+}
+
+:link {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
@@ -533,20 +541,16 @@ main {
 .black {
   color: black;
 }
-
 .black:hover {
   color: black;
 }
-
 .black:active {
   color: black;
 }
-
 .black:link {
   color: black;
 }
-
-.black:visited {
+.black:link {
   color: black;
 }
 

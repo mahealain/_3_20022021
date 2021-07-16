@@ -259,7 +259,7 @@
 
 .coeur:hover .coeur__etat__colorant {
   animation-name: coeur__colorant;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-delay: 0.1ms;
   animation-iteration-count: 1;
   animation-fill-mode: both;
@@ -267,12 +267,13 @@
 
 .coeur:hover .coeur__etat__normal {
   animation-name: coeur__decolorant;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-delay: 0.1ms;
   animation-iteration-count: 1;
   animation-fill-mode: both;
   color: none;
 }
+
 @keyframes coeur__colorant {
   0% {
     opacity: 0;
