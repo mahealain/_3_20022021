@@ -276,7 +276,7 @@ footer h1 {
 }
 
 .coeur__etat__colorant {
-  color: linear-gradient(160deg, #ff79da, #9356dc);
+  color: linear-gradient(0deg, #ff79da, #9356dc);
   font-size: 2.5em;
   position: absolute;
   right: 0;
