@@ -31,16 +31,6 @@ body {
   height: 100%;
 }
 
-.header__bas__btn {
-  background: linear-gradient(160deg, #ff79da, #9356dc);
-  color: white;
-  border-radius: 50px;
-  text-align: center;
-  width: 75%;
-  margin: auto;
-  margin-bottom: 20px;
-}
-
 .header__milieu p {
   font-weight: bold;
   font-size: 1.4em;
@@ -326,6 +316,20 @@ footer h1 {
   }
 }
 /*fin animation coeur*/
+.header__bas__btn {
+  background: linear-gradient(160deg, #ff79da, #9356dc);
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.header__bas__btn:hover {
+  opacity: 0.6;
+  box-shadow: 1em 1em 1em #353535;
+}
+
 :active {
   text-decoration: none;
 }
