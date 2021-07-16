@@ -34,7 +34,7 @@ main {
   flex-direction: column;
 }
 .restaurants {
-  background-color: $colour-nuanceclair;
+  background-color: $colour-restaurants-font;
   display: flex;
   flex-direction: column;
 }
@@ -149,6 +149,7 @@ main {
   width: 90%;
   height: 90%;
   margin-bottom: 2em;
+  box-shadow: 1px 1px 10px $restaurants__card-shad;
 }
 .restaurants__card__image img {
   position: absolute;

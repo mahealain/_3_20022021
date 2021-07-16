@@ -2343,6 +2343,7 @@ main {
   width: 90%;
   height: 90%;
   margin-bottom: 2em;
+  box-shadow: 1px 1px 10px #353535;
 }
 
 .restaurants__card__image img {
