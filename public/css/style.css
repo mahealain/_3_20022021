@@ -54,6 +54,11 @@ body {
   /*taille icone de recherche*/
 }
 
+.fa-arrow-left {
+  position: fixed;
+  top: 0em;
+}
+
 footer {
   margin: 0 0 0 0;
   height: auto;
