@@ -38,3 +38,25 @@
   position: fixed;
   top: 0em;
 }
+/*pour les menu de restaurant debut*/
+.hautmenu {
+  display: flex;
+  flex-direction: row;
+  background-color: $colour-plat__card--fond;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1em;
+  margin: 0;
+}
+
+.fa-arrow-left {
+  display: inline-block;
+
+  margin: auto;
+  padding: auto;
+  left: 1em;
+  top: 0.7em;
+  font-size: 1.5em;
+}
+
+/*pour les menu de restaurant fin*/

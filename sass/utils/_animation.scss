@@ -242,7 +242,9 @@
   right: 0.5em;
 }
 .coeur__etat__colorant {
-  color: linear-gradient(0deg, $colour-secondary, $colour-primary);
+  background: linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2.5em;
   position: absolute;
   right: 0;

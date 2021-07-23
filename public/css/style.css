@@ -59,6 +59,27 @@ body {
   top: 0em;
 }
 
+/*pour les menu de restaurant debut*/
+.hautmenu {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1em;
+  margin: 0;
+}
+
+.fa-arrow-left {
+  display: inline-block;
+  margin: auto;
+  padding: auto;
+  left: 1em;
+  top: 0.7em;
+  font-size: 1.5em;
+}
+
+/*pour les menu de restaurant fin*/
 footer {
   margin: 0 0 0 0;
   height: auto;
@@ -271,7 +292,9 @@ footer h1 {
 }
 
 .coeur__etat__colorant {
-  color: linear-gradient(0deg, #ff79da, #9356dc);
+  background: linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2.5em;
   position: absolute;
   right: 0;
@@ -2215,6 +2238,16 @@ footer h1 {
 
 a {
   text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: black;
+}
+a:link {
+  color: black;
 }
 
 body {
@@ -2426,9 +2459,6 @@ main {
 .black:link {
   color: black;
 }
-.black:link {
-  color: black;
-}
 
 .restaurants__bas__coeur {
   width: 19%;
@@ -2477,23 +2507,6 @@ main {
 
 main {
   text-align: left;
-}
-
-.fa-arrow-left {
-  position: absolute;
-  top: 1.5em;
-  left: 0.5em;
-  font-size: 1.5em;
-}
-
-.hautmenu {
-  display: flex;
-  flex-direction: row;
-  background-color: #ffffff;
-  justify-content: center;
-  align-items: center;
-  padding: 0.1em;
-  margin: 0;
 }
 
 .carrevert {
