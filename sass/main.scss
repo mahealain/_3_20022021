@@ -22,6 +22,17 @@
 
 a {
   text-decoration: none;
+
+  color: black;
+  &:hover {
+    color: black;
+  }
+  &:active {
+    color: black;
+  }
+  &:link {
+    color: black;
+  }
 }
 
 body {
@@ -220,9 +231,6 @@ main {
   &:link {
     color: black;
   }
-  &:link {
-    color: black;
-  }
 }
 
 .restaurants__bas__coeur {
@@ -272,22 +280,6 @@ main {
 }
 main {
   text-align: left;
-}
-.fa-arrow-left {
-  position: absolute;
-  top: 1.5em;
-  left: 0.5em;
-  font-size: 1.5em;
-}
-
-.hautmenu {
-  display: flex;
-  flex-direction: row;
-  background-color: $colour-plat__card--fond;
-  justify-content: center;
-  align-items: center;
-  padding: 0.1em;
-  margin: 0;
 }
 
 .carrevert {
