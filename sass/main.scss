@@ -260,8 +260,19 @@ main {
   margin-top: -1.8em;
   padding-top: 1em;
   background-color: $colour-plat__card;
+  display: flex;
+  flex-direction: row;
 
   width: 100%;
+}
+
+.header__box {
+  display: inline-block;
+  width: 80%;
+}
+.header__box2 {
+  display: inline-block;
+  width: 80%;
 }
 .header__img--box {
   display: flex;
@@ -353,4 +364,22 @@ main {
 
 .roboto--font {
   margin: 0;
+}
+.header__titre__bas {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0em;
+  height: 25%;
+  width: 100%;
+
+  margin: auto;
+}
+.header__titre__bas__gauche {
+  width: 60%;
+  font-size: 1.3em;
+  left: 0em;
+}
+.header__titre__bas__droit {
+  width: 35%;
+  font-size: 1, 2em;
 }
