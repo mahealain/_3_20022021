@@ -2238,16 +2238,6 @@ footer h1 {
 
 a {
   text-decoration: none;
-  color: black;
-}
-a:hover {
-  color: black;
-}
-a:active {
-  color: black;
-}
-a:link {
-  color: black;
 }
 
 body {
